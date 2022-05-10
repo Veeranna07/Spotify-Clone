@@ -1,4 +1,4 @@
-# web-media-player-Spotify-Clone-
+# web-media-player[Spotify Clone]
 
 Web Technology Project based on HTML, CSS, Java script.
 All the source code including the jpg, and bin files will be uploaded here.

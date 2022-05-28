@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: antiquewhite;
+    background-color: lightgreen;
 }
 
 *{
@@ -17,16 +17,16 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 65px;
+    height: 35px;
     background-color: black;
     color: white;
 }
 
 nav ul li{
-    padding: 0 12px;
+    padding: 0 8px;
 }
 .brand img{
-    width: 44px;
+    width: 35px;
     padding: 0 8px;
 }
 
@@ -34,28 +34,28 @@ nav ul li{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .container{
-    min-height: 72vh;
+    min-height: 10vh;
     background-color: black;
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
-   margin: 23px auto;
-   width: 70%;
-   border-radius: 12px;
-   padding: 34px;
+   margin: 5px auto;
+   width: 90%;
+   border-radius: 8px;
+   padding: 15px;
    background-image: url('bg.jpg');
 }
 
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 130px;
-    background-color: black;
-    color: white;
+    height: 65px;
+    background-color: lightgray;
+    color: forestgreen;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,19 +63,19 @@ nav ul li{
 }
 
 .icons{
-    margin-top: 14px; 
+    margin-top: 3px; 
 }
 .icons i{
     cursor: pointer;
 }
 
 #myProgressBar{
-    width: 80vw; 
+    width: 15vw; 
     cursor: pointer;
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 20px;
 }
 
 .songItem{
@@ -91,13 +91,13 @@ nav ul li{
 }
 
 .songItem img{
-    width: 43px;
+    width: 33px;
     margin: 0 23px;
     border-radius: 34px;
 }
 
 .timestamp{
-    margin: 0 23px;
+    margin: 0 15px;
 }
 
 .timestamp i{
@@ -112,10 +112,10 @@ nav ul li{
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 0.4s ease-in;
+    transition: opacity 0.2s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 110px) {
     body {
       background-color: red;
     }
